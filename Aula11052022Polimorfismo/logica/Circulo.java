@@ -1,4 +1,4 @@
-package aulasDevSoftPositivoEcoville.Aula11052022Polimorfismo;
+package aulasDevSoftPositivoEcoville.Aula11052022Polimorfismo.logica;
 
 public class Circulo  extends FormaGeometrica{
     private double raio;
@@ -20,7 +20,6 @@ public class Circulo  extends FormaGeometrica{
     }
     @Override
     public String preenhcerCor() {
-        // TODO Auto-generated method stub
-        return null;
+        return "Amarelo";
     }
 }

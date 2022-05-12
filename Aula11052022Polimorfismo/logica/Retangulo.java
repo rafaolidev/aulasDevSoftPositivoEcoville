@@ -1,4 +1,4 @@
-package aulasDevSoftPositivoEcoville.Aula11052022Polimorfismo;
+package aulasDevSoftPositivoEcoville.Aula11052022Polimorfismo.logica;
 
 public class Retangulo  extends FormaGeometrica{
     private double altura;
@@ -34,8 +34,7 @@ public class Retangulo  extends FormaGeometrica{
 
     @Override
     public String preenhcerCor() {
-        // TODO Auto-generated method stub
-        return null;
+        return "Verde";
     }
     
     
